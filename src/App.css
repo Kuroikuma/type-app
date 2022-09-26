@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -15,7 +23,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +43,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.subs_container{
+    height: 90%;
+    width: 40%;
+    background: #f4f4f4;
+    border-radius: 24px;
+    color: black;
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    row-gap: 25px;
+}
+
+.subs_container p{
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.subs_container p span{
+    color: red;
+}
+
+.sub_card{
+    height: 20%;
+    width: 80%;
+    border: 1px solid #282c34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 18px;
+}
+
+.sub_card img{
+    height: 60%;
+    border-radius: 12px;
 }
